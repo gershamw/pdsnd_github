@@ -12,7 +12,7 @@ WEEKDAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 
 
 LINE_LEN = 90
 
-# print long string with repeating char, used to separate sections of output
+# print long string with repeating char, used to separate sections of output update
 print_line = lambda char: print(char[0] * LINE_LEN)
 
 def print_processing_time(start_time):
@@ -28,7 +28,7 @@ def get_filter_city():
     Returns:
         (str) city - name of the city to analyze
     """
-    # build and display the list of cities for which we have datasets
+    # build and display the list of cities for which we have datasets update
     cities_list = []
     num_cities = 0
 
